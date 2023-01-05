@@ -171,10 +171,10 @@ class S {
   }
 
   /// `My wallet`
-  String get MyWallet {
+  String get myWallet {
     return Intl.message(
       'My wallet',
-      name: 'MyWallet',
+      name: 'myWallet',
       desc: '',
       args: [],
     );
