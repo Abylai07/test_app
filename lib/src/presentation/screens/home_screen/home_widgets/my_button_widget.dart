@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+//Attention
+//Attention
+//Attention (Этот виджет только для демонстраций чтобы увидеть мок для этого виджета зайдите в my_button_with_bloc)
+
 class MyButtonWidget extends StatelessWidget {
 
   MyButtonWidget({Key? key}) : super(key: key);

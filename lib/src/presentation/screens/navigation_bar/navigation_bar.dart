@@ -36,6 +36,11 @@ class _NavigationState extends State<Navigation> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         shadowColor: Colors.white,
+        leading: GestureDetector(
+            onTap: (){
+              Navigator.pop(context);
+            },
+            child: const Icon(Icons.arrow_back_outlined, color: Colors.black,)),
         title: Text(
           S.of(context).myCodes,
           style: const TextStyle(fontSize: 24, color: Colors.black),

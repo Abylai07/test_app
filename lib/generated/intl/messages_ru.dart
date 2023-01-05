@@ -28,6 +28,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "favorite": MessageLookupByLibrary.simpleMessage("Избранные"),
         "myCodes": MessageLookupByLibrary.simpleMessage("Мои коды"),
         "profile": MessageLookupByLibrary.simpleMessage("Профиль"),
-        "settings": MessageLookupByLibrary.simpleMessage("Настройки")
+        "selectLanguage":
+            MessageLookupByLibrary.simpleMessage("Выберите языка"),
+        "settings": MessageLookupByLibrary.simpleMessage("Настройки"),
+        "start": MessageLookupByLibrary.simpleMessage("Начать")
       };
 }

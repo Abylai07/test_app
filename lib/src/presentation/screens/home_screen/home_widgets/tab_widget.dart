@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../../../../../generated/l10n.dart';
 
 class TabWidget extends StatefulWidget {
-  TabWidget({Key? key}) : super(key: key);
+  const TabWidget({Key? key}) : super(key: key);
 
   @override
   State<TabWidget> createState() => _TabWidgetState();
@@ -14,7 +14,7 @@ class _TabWidgetState extends State<TabWidget> {
 
   @override
   Widget build(BuildContext context) {
-    List<String> listName = [S.of(context).allCodes, S.of(context).favorite, S.of(context).cars, S.of(context).add];
+    List<String> listName = [S.of(context).allCodes, S.of(context).favorite, S.of(context).cars, S.of(context).add, S.of(context).start];
 
     return ListView(
       scrollDirection: Axis.horizontal,

@@ -5,6 +5,7 @@ import 'package:test_app/src/data/repository/api/repo_settings.dart';
 import 'package:test_app/src/presentation/screens/home_screen/home_screen.dart';
 import 'package:test_app/src/presentation/screens/profile_screen/profile_screen.dart';
 import 'package:test_app/src/presentation/screens/settings_screen/settings_screen.dart';
+import 'package:test_app/src/presentation/screens/welcome_screen/welcome_screen.dart';
 
 import 'generated/l10n.dart';
 import 'src/presentation/screens/navigation_bar/navigation_bar.dart';
@@ -37,8 +38,9 @@ class TestApp extends StatelessWidget {
         theme: ThemeData(),
         debugShowCheckedModeBanner: false,
         routes: {
-          '/': (context) => const Navigation(),
+          '/': (context) => const WelcomeScreen(),
           '/settings_screen': (context) => const SettingsScreen(),
+          '/navigation': (context) => const Navigation(),
           '/home_screen': (context) => const HomeScreen(),
           '/profile_screen': (context) => const ProfileScreen(),
         },

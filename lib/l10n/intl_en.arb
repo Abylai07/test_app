@@ -5,5 +5,7 @@
   "allCodes" : "All Codes",
   "favorite" : "Favorite",
   "cars" : "Cars",
-  "add" : "Add"
+  "add" : "Add",
+  "selectLanguage" : "Select language",
+  "start" : "Start"
 }
