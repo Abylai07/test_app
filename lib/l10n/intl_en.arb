@@ -7,5 +7,10 @@
   "cars" : "Cars",
   "add" : "Add",
   "selectLanguage" : "Select language",
-  "start" : "Start"
+  "start" : "Start",
+  "myCar" : "My car",
+  "myChild" : "My child",
+  "myHome" : "My home",
+  "MyWallet" : "My wallet",
+  "myPhone" : "My phone"
 }

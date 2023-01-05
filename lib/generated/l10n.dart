@@ -139,6 +139,56 @@ class S {
       args: [],
     );
   }
+
+  /// `My car`
+  String get myCar {
+    return Intl.message(
+      'My car',
+      name: 'myCar',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `My child`
+  String get myChild {
+    return Intl.message(
+      'My child',
+      name: 'myChild',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `My home`
+  String get myHome {
+    return Intl.message(
+      'My home',
+      name: 'myHome',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `My wallet`
+  String get MyWallet {
+    return Intl.message(
+      'My wallet',
+      name: 'MyWallet',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `My phone`
+  String get myPhone {
+    return Intl.message(
+      'My phone',
+      name: 'myPhone',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
